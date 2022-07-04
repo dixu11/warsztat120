@@ -21,6 +21,10 @@ public class Car {
         randomWheel.doFlatTire();
     }
 
+    public Wheel[] getWheels() {
+        return wheels;
+    }
+
     @Override
     public String toString() {
         return "Car{" +

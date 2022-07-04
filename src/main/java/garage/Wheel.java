@@ -13,6 +13,11 @@ public class Wheel {
         flat = true;
     }
 
+    public void repair(double pressure) {
+        this.pressure = pressure;
+        flat = false;
+    }
+
    /* public void setPressure(double pressure) {
         this.pressure = pressure;
     }
@@ -20,6 +25,10 @@ public class Wheel {
     public void setFlat(boolean flat) {
         this.flat = flat;
     }*/
+
+    public boolean isFlat() {
+        return flat;
+    }
 
     @Override
     public String toString() {
