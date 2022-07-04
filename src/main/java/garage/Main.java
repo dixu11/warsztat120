@@ -14,8 +14,7 @@ public class Main {
         System.out.println(car);
         car.flatRandomTire();
         car.flatRandomTire();
-        car.flatRandomTire();
-        car.flatRandomTire();
+
         System.out.println(car);
         Garage garage = new Garage();
        Receipt receipt = garage.repairCar(car);

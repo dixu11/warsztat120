@@ -14,7 +14,7 @@ public class Receipt {
     }
 
     public void printReceipt() {
-        System.out.printf("Typ naprawy %s , ilość %d, cena %fzł łączna cena %fzł\n",
+        System.out.printf("Typ naprawy %s , ilość %d, cena %.2fzł łączna cena %.2fzł\n",
                 repairTyp,count,price,totalPrice );
        // String.format()
     }
