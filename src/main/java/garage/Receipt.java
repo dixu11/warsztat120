@@ -18,4 +18,8 @@ public class Receipt {
                 repairTyp,count,price,totalPrice );
        // String.format()
     }
+
+    public int getCount() {
+        return count;
+    }
 }
